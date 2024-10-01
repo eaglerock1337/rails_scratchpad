@@ -14,3 +14,8 @@
 # ActiveSupport::Inflector.inflections(:en) do |inflect|
 #   inflect.acronym "RESTful"
 # end
+
+# The plural of stuff is stuff
+ActiveSupport::Inflector.inflections do |inflect|
+  inflect.irregular 'stuff', 'stuff'
+end

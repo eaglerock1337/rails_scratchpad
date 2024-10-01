@@ -1,0 +1,27 @@
+/*
+Light Mode colors
+  --bg: #d5d3d9ff;
+  --alt-bg: #b6b3bdff;
+  --text: #1e1c21ff;
+  --red: #c14b1fff;
+  --green: #406354ff;
+
+Dark Mode Colors
+  --bg: #28262cff;
+  --alt-bg: #1e1c21ff;
+  --text: #cbc8d0ff;
+  --red: #e27750ff;
+  --green: #6b9e88ff;
+*/
+
+/* Body */
+
+body {
+  color: rgb(14, 12, 132);
+  background-color: rgb(128, 180, 209);
+  font-family: Lato, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+}
+
