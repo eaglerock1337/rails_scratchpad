@@ -21,7 +21,5 @@ body {
   background-color: rgb(128, 180, 209);
   font-family: Lato, Roboto, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  display: flex;
-  flex-direction: row;
 }
 

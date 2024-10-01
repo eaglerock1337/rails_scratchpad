@@ -1,9 +1,13 @@
 <h1>stuff</h1>
 
+You have <%= Stuff.count %> stuff.
+
 <ul>
   <% @stuff.each do |stuff| %>
     <li>
-      <%= stuff.name %>
+      <h2><%= stuff.name %></h3><%= stuff.description %>
     </li>
   <% end %>
 </ul>
+
+<%= link_to "new stuff", new_stuff_path %>
