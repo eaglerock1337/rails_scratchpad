@@ -1,0 +1,19 @@
+<h1>items</h1>
+
+There are <%= Item.count %> items in total.
+
+<ul>
+  <% @items.each do |item| %>
+    <li>
+      <h3><%= item.name %></h3>
+      <% if item.useful %>
+        <strong>Useful</strong><br>
+      <% end %>
+      <strong>Value:</strong>&emsp;&emsp;&emsp;<%= item.value %><br>
+      <strong>Description:</strong>&ensp;<%= item.description %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "new item", new_item_path %>
+<%= link_to "stuff", root_path %>
