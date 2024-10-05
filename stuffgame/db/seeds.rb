@@ -15,7 +15,7 @@ Item.destroy_all
 items = [
   ['Hammer', 'A particularly ordinary hammer.', 5],
   ['Pickaxe', 'Apparently, not made of diamond.', 6],
-  ['Iron Ore', "It's hard to find a game with this in it.", 1],
+  ['Iron Ore', 'It\'s hard to find a game without this in it.', 1],
   ['Iron Ingot', 'What kind of game is this, anyway?', 2]
 ]
 
